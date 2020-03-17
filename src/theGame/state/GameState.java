@@ -1,13 +1,10 @@
 package theGame.state;
 
+import character.*;
+import character.Character;
 import image.Assets;
 import map.Map;
 import theGame.main.Game;
-import character.BulletList;
-import character.Character;
-import character.CharacterBullet;
-import character.Direction;
-import character.Projectile;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -18,7 +15,7 @@ public class GameState extends  State{
     private Map map;
     private Character character;
     private static BulletList characterBulletList;
-    
+    private static staticEntity e;
     public GameState(Game game){
         map =new Map("res/map.txt");
         character = new Character(64,64);
@@ -29,6 +26,7 @@ public class GameState extends  State{
         map.upDate();
         character.update();
         characterBulletList.update();
+        e.update();
     }
 
     @Override
@@ -36,6 +34,7 @@ public class GameState extends  State{
         map.render(g);
         character.render(g);
         characterBulletList.render(g);
+        e.render(g);
     }
     public static void pushCharacterBullet(Direction direction,float posX,float posY) {
     	characterBulletList.push(new CharacterBullet(direction, posX, posY));
