@@ -1,7 +1,11 @@
 package theGame.main;
 
+import image.Assets;
+import image.SpriteSheet;
 import theGame.Display.Display;
 import image.Image;
+import theGame.state.GameState;
+import theGame.state.State;
 
 import java.awt.*;
 import java.awt.image.BufferStrategy;
@@ -17,7 +21,8 @@ public class Game implements Runnable {
 
     private BufferStrategy buffer;
     private Graphics graph;
-    private BufferedImage testG;
+
+    private State gameState;
 
     public Game(String title, int width, int height) {
         this.height = height;
@@ -27,11 +32,14 @@ public class Game implements Runnable {
 
     private void init() {
         display = new Display(title, width, height);
-        testG = Image.imageLoad("/res/wall.png");
+        Assets.init();
+        gameState = new GameState(this);
+        State.setState(gameState);
     }
 
     private void update() {
-
+        if(State.getState() != null)
+            State.getState().upDate();
     }
 
     private void render() {
@@ -41,7 +49,9 @@ public class Game implements Runnable {
             return;
         }
         graph = buffer.getDrawGraphics();
-        graph.drawImage(testG, 20, 20, null);
+        graph.clearRect(0,0,width,height);
+        if(State.getState() != null)
+            State.getState().render(graph);
 
         buffer.show();
         graph.dispose();
@@ -50,10 +60,31 @@ public class Game implements Runnable {
     @Override
     public void run() {
         init();
+        int fps =60;
+        double timePerUpDate = 1000000000 /fps;
+        double delta = 0;
+        long now;
+        long lastTime = System.nanoTime();
+        long timer=0;
+        int ticks =0;
 
         while (running) {
-            update();
-            render();
+            now =System.nanoTime();
+            delta += (now-lastTime) / timePerUpDate;
+            timer +=now -lastTime;
+            lastTime = now;
+
+            if(delta >= 1) {
+                update();
+                render();
+                ticks++;
+                delta--;
+            }
+            if(timer >= 1000000000 ){
+                //System.out.println("Ticks and Frames"+ticks);
+                ticks =0 ;
+                timer = 0;
+            }
         }
         stop();
         ;
