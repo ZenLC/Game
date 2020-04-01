@@ -15,4 +15,5 @@ public abstract class State {
     public abstract  void upDate();
 
     public abstract void render(Graphics g);
+	public abstract void restart();
 }

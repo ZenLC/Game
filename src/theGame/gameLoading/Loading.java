@@ -5,6 +5,11 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class Loading {
+    /**
+     * save all things in txt file to string
+     * @param path txt location
+     * @return string
+     */
     public static  String switchToString(String path){
         StringBuilder string = new StringBuilder();
         try{
@@ -19,6 +24,11 @@ public class Loading {
         return string.toString();
         }
 
+    /**
+     * get each number in string
+     * @param num  string
+     * @return  number
+     */
         public static int switchToInt(String num){
         try{
                 return Integer.parseInt(num);

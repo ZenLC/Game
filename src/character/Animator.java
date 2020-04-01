@@ -3,6 +3,11 @@ package character;
 
 import java.awt.image.BufferedImage;
 
+/**
+ * Class for creating animated images from one picture with multiple frames (4 specifically)
+ * @author Jordan Horacsek
+ */
+
 import image.Image;
 
 public class Animator {
@@ -17,11 +22,27 @@ public class Animator {
 		height = animatedImage.getImage().getHeight();
 		width = animatedImage.getImage().getWidth();
 	}
+	/**
+	 * @return returns width of the image size divided by four.
+	 */
+	public float getWidth() {
+		return width/4;
+	}
+	/**
+	 * @return returns the height of the image.
+	 */
+	public float getHeight() {
+		return height;
+	}
 	
-	//Returns an image based on tick
+	/**
+	 * Returns an image based on tick
+	 * @param isMoving if the entity is moving then continue the animation.
+	 * @return returns the next frame, the same frame, or a static frame of the animation, depending on the tick.
+	 */
 	public BufferedImage getImage(boolean isMoving) {
 		//This a little trick, so that the image doesn't update too quickly.
-		//Basically the image doesn't update until the subcounter reaches ten.
+		//Basically the image doesn't update until the subcounter reaches ten.		
 		if(isMoving) {
 			subCounter++;
 			if (subCounter >= 10){

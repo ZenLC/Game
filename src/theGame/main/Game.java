@@ -11,30 +11,42 @@ import java.awt.*;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 
+import javax.swing.JFrame;
+
+/**
+The below class used to determine all class type during game running
+ */
 public class Game implements Runnable {
     private Display display;
-    public int width, height;
+    public static int width;
+	public static int height;
     public String title;
 
-    private boolean running = false;
-    private Thread thread;
+    private static boolean running = false;
+    private static Thread thread;
 
     private BufferStrategy buffer;
     private Graphics graph;
+    
+    private JFrame gameFrame;
 
-    private State gameState;
+    private static State gameState;
 
-    public Game(String title, int width, int height) {
+    public Game(String title, int width, int height,JFrame gameFrame) {
         this.height = height;
         this.width = width;
         this.title = title;
+        this.gameFrame = gameFrame;
     }
-
     private void init() {
-        display = new Display(title, width, height);
+        display = new Display(title, width, height, gameFrame);
         Assets.init();
-        gameState = new GameState(this);
+        gameState = new GameState();
         State.setState(gameState);
+    }
+    
+    public static void reset() {
+    	gameState.restart();
     }
 
     private void update() {
@@ -100,7 +112,7 @@ public class Game implements Runnable {
 
     }
 
-    public synchronized void stop() {
+    public synchronized static void stop() {
         if (!running) {
             return;
         }
@@ -111,4 +123,11 @@ public class Game implements Runnable {
             e.printStackTrace();
         }
     }
+    public static int getWidth() {
+    	return width;
+    }
+    public static int getHeight() {
+    	return height;
+    }
+
 }

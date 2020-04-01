@@ -3,12 +3,14 @@ package tile;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
+/**
+ * determine each tile id
+ */
 public class Tile {
 
     public static Tile[] tiles=new Tile[246];
     public static Tile FloorTile=new floorTile(0);
     public static  Tile Wall =new wallTile(1);
-    public static  Tile gateTile = new gateTile(2);
 
         protected BufferedImage surface;
         protected final int id;

@@ -12,21 +12,15 @@ public class Image {
 	
 	public Image (String filePath){
 		this.filePath = filePath;
-		
 	}
-	/*
-	public int getHeight() {
-		return
-	}
-	
-	public int getWidth() {
-		
-	}*/
-	
 	//This method needs to be fixed clearly, but it will do for now...
+
+	/**
+	 * identify picture location
+	 * @return the picture
+	 */
 	public BufferedImage getImage() {
 		try {
-			//I have no idea why the "." exist. Also the file doesn't have to be initialized in this method...
 			image = ImageIO.read(new File("."+filePath));
 		}catch(IOException e) {
 			System.out.println("An image could not be found!");
@@ -35,7 +29,7 @@ public class Image {
 		}
 		return image;
 	}
-	
+
 	//This was the original code that was used...
     public static BufferedImage imageLoad(String path){
         try {

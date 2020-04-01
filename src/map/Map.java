@@ -3,6 +3,7 @@ import theGame.gameLoading.Loading;
 import tile.Tile;
 import java.awt.*;
 
+
 public class Map {
     private int width,height;
     private static int [][] tiles;
@@ -14,29 +15,38 @@ public class Map {
     public void upDate(){
 
     }
+
+    /**
+     *
+     *
+     * @param g reference
+     */
     public void render(Graphics g){
         for (int y=0; y<height;y++){
             for (int x=0;x<width;x++){
-                geyTile(x,y).render(g,x*Tile.TILEWIDTH,y*Tile.TILEHIGHT);
+                getTile(x,y).render(g,x*Tile.TILEWIDTH,y*Tile.TILEHIGHT);
 
             }
         }
     }
 
-    public Tile geyTile(int x ,int y){
+    /**
+     *
+     * @param x x-axis
+     * @param y y-axis
+     * @return the tile type plan to place
+     */
+    public static Tile getTile(int x ,int y){
         Tile t = Tile.tiles[tiles[x][y]];
         if(t == null)
             return Tile.FloorTile;
         return t;
     }
-    //Just needed a static way to access the above method...
-    public static Tile getTile(int x ,int y){
-        Tile t = Tile.tiles[tiles[x][y]];
-        if(t == null)
-            return null;
-        System.out.println(t.getId());
-        return t;
-    }
+
+    /**
+     * identified the map design from a txt file
+     * @param path the location of txt file
+     */
     private  void loadWorld(String path){
         String file = Loading.switchToString(path);
         String[] tokens =file.split("\\s+");

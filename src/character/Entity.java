@@ -1,11 +1,15 @@
 package character;
 
 import java.awt.Graphics;
+import java.awt.image.BufferedImage;
 
 import image.Image;
 
-//Should be extended by anything that moves essentially
-//Also you should reorganize the methods private, public, etc...
+/**
+ * Basically extended by anything that moves.
+ * @author jorda
+ *
+ */
 public class Entity {
 	
 	/**
@@ -23,17 +27,20 @@ public class Entity {
 	//Also for the sake of simplicity, one the prefix of the image name is required.
 	protected Animator activeImage;
 	protected Animator[] allImages= {null,null,null,null};
+	protected Image hitImage;
 	
 	//protected float speed=1;
 	protected float speed=3;
 	protected boolean moving=false;
 	
+	protected boolean isHit=false;
+	protected int hitCounter=0;
+	
 	/**
 	 * 
 	 * @param posX Initial X position
 	 * @param posY Initial Y position
-	 * @param imagePathPrefix This is the initial path to the image prefix, for example, in the character folder there are 
-	 * four images, each one indicating a direction. They all start with the same name, "/res/character/mainCharacter"
+	 * @param imagePathPrefix This is the initial path to the image prefix, for example, in the character folder there are four images, each one indicating a direction. They all start with the same name, "/res/character/mainCharacter"
 	 */
 	protected Entity(int posX, int posY, String imagePathPrefix){
 		this.posX = posX;
@@ -44,15 +51,56 @@ public class Entity {
 		setDirection(Direction.DOWN);
 	}
 	
+	/**
+	 * @return Direction the entity is currently facing.
+	 */
 	public Direction getDirection() {
 		return directionFacing;
 	}
 	
+	/**
+	 * @param direction Sets direction entity should face.
+	 */
 	private void setDirection(Direction direction) {
 		directionFacing = direction;
 		updateActiveImage(direction);
 		return;
 	}
+	
+	private boolean swap=false;
+	/**
+	 * @return Flashes a red image when the entity is hit.
+	 */
+	private BufferedImage getHitImage() {
+		hitCounter++;
+		if(hitCounter > 20) {
+			hitCounter=0;
+			isHit=false;
+		}
+		if(hitCounter%8==0) {
+			swap=!swap;
+		}
+		if(swap)
+			return activeImage.getImage(moving);
+		int locHeight = hitImage.getImage().getHeight();
+		int locWidth = hitImage.getImage().getWidth()/4;
+		switch(getDirection()) {
+			case UP:
+				return hitImage.getImage().getSubimage((locWidth*0), 0, locWidth, locHeight);
+			case DOWN:
+				return hitImage.getImage().getSubimage((locWidth*1), 0, locWidth, locHeight);
+			case LEFT:
+				return hitImage.getImage().getSubimage((locWidth*2), 0, locWidth, locHeight);
+			case RIGHT:
+				return hitImage.getImage().getSubimage((locWidth*3), 0, locWidth, locHeight);
+		}
+		
+		return null;
+		
+	}
+	/**
+	 * Initiallizes all the images used by the entity.
+	 */
 	private void initializeAllImages() {
 		//Just so happens the postfix are added in the same direction the enum is ordered.
 		//This is obviously not a coincidence. hehe
@@ -60,7 +108,7 @@ public class Entity {
 		for(int i = 0; i < 4; i++) {
 			allImages[i] = new Animator(imagePathPrefix+postFix[i]+".png");
 		}
-
+		hitImage=new Image(imagePathPrefix+"Red.png");
 		return;
 	}
 	
@@ -126,6 +174,21 @@ public class Entity {
 		setDirection(Direction.DOWN);
 		return;
 	}
+	
+	public int getX() {
+		return (int)posX;
+	}
+	public int getY() {
+		return (int)posY;
+	}
+	
+	//These methods need to be fixed
+	public int getWidth() {
+		return (int)activeImage.getWidth();
+	}
+	public int getHeight() {
+		return (int)activeImage.getHeight();
+	}
 	public void shoot() {
 		
 	}
@@ -135,18 +198,35 @@ public class Entity {
 	public boolean isMoving() {
 		return moving;
 	}
+	public void hit() {
+		isHit=true;
+		return;
+	}
 	/*
 	public Image getImage() {
 		return activeImage;
 	}*/
-	
+	/**
+	 * Where all entity logic is updated
+	 */
 	public void update() {
 		
 	}
 	
 	//The size of the image should probably be variable...
+	/**
+	 * Handles rendering entity.
+	 * @param g
+	 */
     public void render(Graphics g){
-        g.drawImage(activeImage.getImage(moving),(int)posX,(int)posY,null);
+    	if(!isHit)
+    		g.drawImage(activeImage.getImage(moving),(int)posX,(int)posY,null);
+    	else
+    		g.drawImage(getHitImage(),(int)posX,(int)posY,null);
+    	
+    	//Uncomment line bellow if you want hitboxes for the entities
+    	//g.drawRect(getX(), getY(), getWidth(), getHeight());
+   
     }
 	
 	

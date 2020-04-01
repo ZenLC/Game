@@ -3,6 +3,11 @@ package controls;
 import java.awt.event.*;
 import character.Direction;
 
+/**
+ * Pretty generic class that handles keyboard input.
+ * @author Jordan Horacsek
+ *
+ */
 public class Control implements KeyListener {
 
 	private static boolean[] directions= {false,false,false,false};
