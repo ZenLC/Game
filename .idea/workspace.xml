@@ -1,165 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af89278d-8440-46f2-99d0-c45f542890e2" name="Default Changelist" comment="图片">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/figure.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy1Down.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy1Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy1Left.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy1Left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy1Right.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy1Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy1Up.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy1Up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy2Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy2Left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy2Red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy2Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy2Up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Enemy/enemyBullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/button Load.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/button help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/button start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/character/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/character/fireball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/character/mainCharacterRed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/key fragment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/map.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/reward.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/reward2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy1Down.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy1Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy1Left.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy1Left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy1Red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy1Right.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy1Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy1Up.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy1Up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy2Down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy2Left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy2Red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy2Right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/Enemy2Up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Enemy/enemyBullet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/button Load.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/button help.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/button start.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/character/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/character/fireball.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/character/mainCharacterDown.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/character/mainCharacterLeft.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/character/mainCharacterRed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/character/mainCharacterRight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/character/mainCharacterUp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/endPoint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/key fragment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/key.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/reward.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/reward2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/tiles.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/wall2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/META-INF/Game.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/character/fireball.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Enemy/Enemy1Red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/character/mainCharacterDown.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/character/mainCharacterDown.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/character/mainCharacterLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/character/mainCharacterLeft.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/character/mainCharacterRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/character/mainCharacterRight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/character/mainCharacterUp.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/character/mainCharacterUp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/end point.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/endPoint.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/image/SpriteSheet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/map.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/theGame/gameLoading/Loading.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/tile/floorTile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/tile/wallTile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/tiles.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/tiles.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/wall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/wall2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/wall2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Game/witch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/character/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy1Down.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy1Down.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy1Down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy1Down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy1Left.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy1Left.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy1Left.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy1Left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy1Red.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy1Red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy1Right.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy1Right.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy1Right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy1Right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy1Up.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy1Up.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy1Up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy1Up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy2Down.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy2Down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy2Left.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy2Left.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy2Red.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy2Red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy2Right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy2Right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/Enemy2Up.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/Enemy2Up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/Enemy/enemyBullet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/Enemy/enemyBullet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/button Load.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/button Load.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/button help.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/button help.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/button start.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/button start.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/character/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Enemy/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/character/fireball.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/character/fireball.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/character/mainCharacterDown.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/character/mainCharacterDown.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/character/mainCharacterLeft.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/character/mainCharacterLeft.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/character/mainCharacterRed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/character/mainCharacterRed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/character/mainCharacterRight.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/character/mainCharacterRight.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/character/mainCharacterUp.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/character/mainCharacterUp.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/endPoint.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/endPoint.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/key fragment.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/key fragment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/key.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/key.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/map.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/reward.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/reward.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/reward2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resources/reward2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/tiles.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/tiles.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/wall.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/wall.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/res/wall2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/wall2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/EndFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/EndFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Animator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Animator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/BulletList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/BulletList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/CharacterBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/CharacterBullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Collision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Collision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Direction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Enemy1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Enemy1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Enemy2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Enemy2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/EnemyBullet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/EnemyBullet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/EnemyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/EnemyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/character/Projectile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/character/Projectile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controls/Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controls/Control.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/Assets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/image/Assets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/image/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/image/SpriteSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/image/SpriteSheet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/map/staticEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/map/staticEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reward/BonusReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reward/BonusReward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reward/RegularReward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reward/RegularReward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reward/Reward.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reward/Reward.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theGame/Display/Display.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theGame/Display/Display.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theGame/gameLoading/Loading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theGame/gameLoading/Loading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theGame/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theGame/main/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theGame/state/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theGame/state/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theGame/state/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/theGame/state/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile/Tile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/Tile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile/floorTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/floorTile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile/wallTile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tile/wallTile.java" afterDir="false" />
-    </list>
+    <list default="true" id="af89278d-8440-46f2-99d0-c45f542890e2" name="Default Changelist" comment="" />
     <list id="72b614a2-f2d4-42af-afab-00ffd1fb3003" name="notcommit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +145,7 @@
       <workItem from="1585702660448" duration="11000" />
       <workItem from="1585702728116" duration="893000" />
       <workItem from="1585703725199" duration="281000" />
-      <workItem from="1585708964918" duration="249000" />
+      <workItem from="1585708964918" duration="312000" />
     </task>
     <task id="LOCAL-00001" summary="修复图片不显示问题">
       <created>1583887536603</created>
@@ -340,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585703283780</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="完整版">
+      <created>1585709259864</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585709259864</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -361,7 +210,8 @@
     <MESSAGE value="1st" />
     <MESSAGE value="图片" />
     <MESSAGE value="全部code" />
-    <option name="LAST_COMMIT_MESSAGE" value="全部code" />
+    <MESSAGE value="完整版" />
+    <option name="LAST_COMMIT_MESSAGE" value="完整版" />
   </component>
   <component name="WindowStateProjectService">
     <state x="505" y="223" key="#com.intellij.ide.util.MemberChooser" timestamp="1584384162699">
@@ -381,10 +231,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584418416784" />
-    <state x="423" y="127" key="CommitChangelistDialog2" timestamp="1585703283519">
+    <state x="423" y="127" key="CommitChangelistDialog2" timestamp="1585709259537">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="423" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585703283519" />
+    <state x="423" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585709259537" />
     <state width="1638" height="350" key="GridCell.Tab.0.bottom" timestamp="1584448418615">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -413,14 +263,14 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="0" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1585703170175" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585703299109">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585709267844">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1585703299109" />
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1584250405323">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1585709267844" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1585873971191">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584250405323" />
+    <state x="517" y="357" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1585873971191" />
     <state x="517" y="372" key="com.intellij.ide.util.TipDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1584075512889" />
     <state x="505" y="248" key="run.anything.popup" timestamp="1585703190833">
       <screen x="0" y="0" width="1680" height="1050" />

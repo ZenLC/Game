@@ -10,6 +10,7 @@ public class Loading {
      * @param path txt location
      * @return string
      */
+
     public static  String switchToString(String path){
         StringBuilder string = new StringBuilder();
         try{

@@ -6,6 +6,7 @@ import java.awt.image.BufferedImage;
  * get the picture
  *
  */
+
 public class SpriteSheet {
     private BufferedImage sheet;
     public SpriteSheet(BufferedImage sheet){
