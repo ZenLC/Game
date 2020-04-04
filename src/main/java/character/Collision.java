@@ -19,7 +19,7 @@ public class Collision {
 	 * @param boundY2
 	 * @return
 	 */
-	private static boolean isPointInSquare(int pX, int pY, int boundX1, int boundY1, int boundX2, int boundY2 ) {
+	public static boolean isPointInSquare(int pX, int pY, int boundX1, int boundY1, int boundX2, int boundY2 ) {
 			if(boundX1 <= pX && pX <= boundX2) {
 				//These might need to be reversed.
 				//System.out.println("hit 1");

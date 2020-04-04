@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af89278d-8440-46f2-99d0-c45f542890e2" name="Default Changelist" comment="" />
+    <list default="true" id="af89278d-8440-46f2-99d0-c45f542890e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <list id="72b614a2-f2d4-42af-afab-00ffd1fb3003" name="notcommit" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,6 +148,7 @@
       <workItem from="1585702728116" duration="893000" />
       <workItem from="1585703725199" duration="281000" />
       <workItem from="1585708964918" duration="312000" />
+      <workItem from="1585873970213" duration="720000" />
     </task>
     <task id="LOCAL-00001" summary="修复图片不显示问题">
       <created>1583887536603</created>
@@ -189,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585709259864</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="完整版">
+      <created>1585874006948</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585874006948</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -231,10 +241,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1584418416784" />
-    <state x="423" y="127" key="CommitChangelistDialog2" timestamp="1585709259537">
+    <state x="423" y="127" key="CommitChangelistDialog2" timestamp="1585874006729">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="423" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585709259537" />
+    <state x="423" y="127" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1585874006729" />
     <state width="1638" height="350" key="GridCell.Tab.0.bottom" timestamp="1584448418615">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -263,10 +273,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="0" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1585703170175" />
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585709267844">
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2" timestamp="1585874022602">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1585709267844" />
+    <state x="440" y="265" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1585874022602" />
     <state x="517" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1585873971191">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

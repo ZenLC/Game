@@ -101,6 +101,14 @@ public class Game implements Runnable {
         ;
     }
 
+    public static void setRunning(boolean running) {
+        Game.running = running;
+    }
+
+    public static boolean isRunning() {
+        return running;
+    }
+
     public synchronized void start() {
         if (running) {
             return;

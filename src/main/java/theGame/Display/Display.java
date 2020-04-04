@@ -29,7 +29,6 @@ public class Display {
         this.width = width;
         this.height = height;
         frame=gameFrame;
-
         createDisplay();
     }
 
