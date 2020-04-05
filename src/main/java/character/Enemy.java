@@ -1,11 +1,11 @@
-package character;
+package src.main.java.character;
 
 /**
  * Class that contains methods that are required for each enemy.
  * @author Rohan B.
  *
  */
-public class Enemy extends Entity{
+public class Enemy extends Entity {
 	
 	protected int health=4;
 	protected boolean isDead=false;

@@ -1,12 +1,10 @@
-package reward;
+package src.main.java.reward;
 
-import image.Image;
+import src.main.java.character.Collision;
+import src.main.java.character.Entity;
+import src.main.java.image.Image;
+import java.awt.*;
 import java.util.Random;
-
-import character.Collision;
-import character.Entity;
-
-import java.awt.Graphics;
 
 public class BonusReward extends Reward {
     private int b_posX;

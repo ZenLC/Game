@@ -1,13 +1,13 @@
-package character;
+package src.main.java.character;
 
-import map.Map;
-import tile.Tile;
+import src.main.java.map.Map;
+import src.main.java.tile.Tile;
 /**
  * Class that creates the enmy bullet.
  * @author Rohan B.
  *
  */
-public class EnemyBullet extends Projectile{
+public class EnemyBullet extends Projectile {
 	private Entity toBeHit;
 	public EnemyBullet(Direction direction, float initialX, float initialY, Entity toBeHit) {
 		super(direction,initialX,initialY,"/src/main/resources/Enemy/enemyBullet.png");

@@ -1,24 +1,17 @@
-package character;
+package src.main.java.character;
 
-import java.awt.BasicStroke;
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.geom.AffineTransform;
+import src.main.java.controls.Control;
+import src.main.java.map.Map;
+import src.main.java.tile.Tile;
 
-import controls.Control;
-import theGame.main.Game;
-import theGame.state.*;
-import map.Map;
-import tile.Tile;
+import java.awt.*;
 
 /**
  * Main character of the game.
  * @author Jordan Horacsek
  *
  */
-public class Character extends Entity{
+public class Character extends Entity {
 	private boolean canShoot=false;
 	private int counter=0;
 	private int cooldown=30;
@@ -27,7 +20,7 @@ public class Character extends Entity{
 	private int colY=(int)((posY/Tile.TILEHIGHT)+1);
 	
 	public Character(int posX, int posY){
-		super(posX, posY,"/src/main/resources/character/mainCharacter");
+		super(posX, posY,"/src/main/java/resources/character/mainCharacter");
 	}
 	/**
 	 * Activates when player is hit, either by a projectile or collision from an enemy.
@@ -44,7 +37,7 @@ public class Character extends Entity{
 	 */
 	public void checkEnemyCollision() {
 		//System.out.println(EnemyList.get(0).getY());
-		for(int i=0; i < EnemyList.getElements(); i++) {
+		for(int i = 0; i < EnemyList.getElements(); i++) {
 			if(Collision.isColliding(this,EnemyList.get(i))) {
 				hit();
 			}
@@ -72,7 +65,7 @@ public class Character extends Entity{
 	 * Adds a bullet to the character bullet queue.
 	 */
 	public void shoot() {
-		GameState.pushCharacterBullet(getDirection(), posX, posY);
+		src.main.java.theGame.state.GameState.pushCharacterBullet(getDirection(), posX, posY);
 		canShoot=false;
 	}
 	/**

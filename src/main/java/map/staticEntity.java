@@ -1,6 +1,6 @@
-package map;
+package src.main.java.map;
 
-import image.Image;
+import src.main.java.image.Image;
 
 import java.awt.*;
 

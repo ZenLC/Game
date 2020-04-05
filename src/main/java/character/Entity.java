@@ -1,9 +1,9 @@
-package character;
+package src.main.java.character;
 
-import java.awt.Graphics;
+import src.main.java.image.Image;
+
+import java.awt.*;
 import java.awt.image.BufferedImage;
-
-import image.Image;
 
 /**
  * Basically extended by anything that moves.

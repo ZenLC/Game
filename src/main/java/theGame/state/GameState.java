@@ -1,28 +1,24 @@
-package theGame.state;
+package src.main.java.theGame.state;
 
-import character.*;
-import character.Character;
-import map.Map;
-import map.staticEntity;
-import reward.*;
-import theGame.main.Game;
+import src.main.java.UI.EndFrame;
+import src.main.java.character.Character;
+import src.main.java.character.*;
+import src.main.java.map.Map;
+import src.main.java.map.staticEntity;
+import src.main.java.reward.BonusReward;
+import src.main.java.reward.RegularReward;
+import src.main.java.theGame.main.Game;
 
-import character.Enemy;
-import character.Enemy1;
-import character.Enemy2;
-import character.EnemyBullet;
-import character.EnemyList;
 
 import java.awt.*;
 import java.awt.geom.AffineTransform;
 
-import UI.EndFrame;
 
 
 /**
  * implement all reference
  */
-public class GameState extends  State{
+public class GameState extends State {
 
     private Map map;
     private static Character character;
@@ -53,7 +49,7 @@ public class GameState extends  State{
         
         regular = new RegularReward();
         bonus = new BonusReward();
-        endPoint = new staticEntity(32*(26),32*(16),"/src/main/resources/endPoint.png");
+        endPoint = new staticEntity(32*(26),32*(16),"/src/main/java/resources/endPoint.png");
     }
     public void restart() {
     	 new EnemyList();

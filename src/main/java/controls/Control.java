@@ -1,7 +1,9 @@
-package controls;
+package src.main.java.controls;
 
-import java.awt.event.*;
-import character.Direction;
+import src.main.java.character.Direction;
+
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 
 /**
  * Pretty generic class that handles keyboard input.

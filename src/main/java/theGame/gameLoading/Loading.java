@@ -1,4 +1,4 @@
-package theGame.gameLoading;
+package src.main.java.theGame.gameLoading;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

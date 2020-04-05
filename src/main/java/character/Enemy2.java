@@ -1,12 +1,7 @@
-package character;
-
+package src.main.java.character;
 
 
 import java.util.Random;
-
-import map.Map;
-import theGame.state.*;
-import tile.Tile;
 
 /**
  * The larger enemy that walks around in a circle and fires projectiles around.
@@ -52,7 +47,7 @@ public class Enemy2 extends Enemy{
 	 * Adds a bullet to the enemyBulletList.
 	 */
 	public void EnemyShoot() {
-		GameState.pushEnemyBullet(getDirection(), getX(), getY());
+		src.main.java.theGame.state.GameState.pushEnemyBullet(getDirection(), getX(), getY());
 	}
 
 	/**

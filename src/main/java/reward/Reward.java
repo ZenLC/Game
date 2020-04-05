@@ -1,11 +1,12 @@
-package reward;
+package src.main.java.reward;
+
+import src.main.java.character.Entity;
+import src.main.java.image.Image;
 
 import java.awt.*;
 
-import character.Entity;
-
 public abstract class Reward {
-	protected image.Image image;
+	protected Image image;
 	
     public abstract int update(Entity entity);
     public abstract void render(Graphics g);

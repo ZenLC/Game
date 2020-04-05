@@ -1,6 +1,6 @@
-package character;
+package src.main.java.character;
 
-import java.awt.Graphics;
+import java.awt.*;
 import java.util.ArrayList;
 /**
  * Can be thought of as an ADT that manages all the enemies in the game.

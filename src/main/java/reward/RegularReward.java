@@ -1,14 +1,12 @@
-package reward;
-import java.awt.image.BufferedImage;
-import image.Image;
-import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.geom.AffineTransform;
-import character.Character;
-import character.Collision;
-import character.Entity;
+package src.main.java.reward;
 
-public class RegularReward extends Reward{
+import src.main.java.character.Collision;
+import src.main.java.character.Entity;
+import src.main.java.image.Image;
+
+import java.awt.*;
+
+public class RegularReward extends Reward {
     private int [] posX;
     private int [] posY;
     private int totalRegularRewardNum;

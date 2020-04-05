@@ -1,6 +1,4 @@
-package image;
-
-import org.junit.Test;
+package src.main.java.image;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

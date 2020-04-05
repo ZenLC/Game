@@ -1,12 +1,9 @@
-package character;
+package src.main.java.character;
 
-import java.awt.Graphics;
-import java.awt.Graphics2D;
+import src.main.java.image.Image;
+
+import java.awt.*;
 import java.awt.geom.AffineTransform;
-
-import image.Image;
-import map.Map;
-import tile.Tile;
 /**
  * Extended by all projectiles, contains essential methods for projectiles.
  * @author Jordan Horacsek
@@ -53,25 +50,25 @@ public class Projectile {
 	}
 	public int getX() {
 		//Change this in a diff method
-		if(this.direction==Direction.DOWN || this.direction==Direction.UP )
+		if(this.direction== Direction.DOWN || this.direction== Direction.UP )
 			return (int)posX;
 		else
 			return (int)posX-10;
 	}
 	public int getY() {
-		if(this.direction==Direction.DOWN || this.direction==Direction.UP )
+		if(this.direction== Direction.DOWN || this.direction== Direction.UP )
 			return (int)posY;
 		else
 			return (int)posY+10;
 	}
 	public int getWidth() {
-		if(this.direction==Direction.DOWN || this.direction==Direction.UP )
+		if(this.direction== Direction.DOWN || this.direction== Direction.UP )
 			return (int)width;
 		else
 			return(int)height;
 	}
 	public int getHeight() {
-		if(this.direction==Direction.DOWN || this.direction==Direction.UP )
+		if(this.direction== Direction.DOWN || this.direction== Direction.UP )
 			return (int)height;
 		else
 			return(int)width;

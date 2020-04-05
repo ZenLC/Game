@@ -1,12 +1,9 @@
-package UI;
+package src.main.java.UI;
 
-import java.awt.Font;
+import src.main.java.theGame.main.Game;
 
-import javax.swing.JButton;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-
-import theGame.main.Game;
+import javax.swing.*;
+import java.awt.*;
 
 public class EndFrame {
 	//Win vs Lose in constructor
@@ -17,7 +14,7 @@ public class EndFrame {
 
 		Start.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Start.frame.setSize(width,height);
-		Start.frame.setLayout(null); 
+		Start.frame.setLayout(null);
 		JLabel text = new JLabel("You've Lost!");
         JLabel text2 = new JLabel("Your score fell bellow 0.");
         
@@ -26,7 +23,7 @@ public class EndFrame {
 		text.setBounds(132, 95+10, 300, 100);
 		text2.setBounds(135, 130+10, 300, 100);
 	 
-		Start.frame.add(text);  
+		Start.frame.add(text);
 		Start.frame.add(text2);
 		Game.stop();
 		return;
@@ -36,7 +33,7 @@ public class EndFrame {
 
 		Start.frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Start.frame.setSize(width,height);
-		Start.frame.setLayout(null); 
+		Start.frame.setLayout(null);
 		JLabel text = new JLabel("You've Won!");
         JLabel text2 = new JLabel("Your final score was: "+score);
         JLabel text3;
@@ -53,7 +50,7 @@ public class EndFrame {
 		text2.setBounds(135, 130+20, 300, 100);
 		text3.setBounds(135, 130-95+130+10, 300, 100);
 	 
-		Start.frame.add(text);  
+		Start.frame.add(text);
 		Start.frame.add(text2);
 		Start.frame.add(text3);
 		Game.stop();

@@ -1,14 +1,10 @@
-package theGame.Display;
-import javax.swing.Icon;
-import  javax.swing.JFrame;
-import javax.swing.JLabel;
+package src.main.java.theGame.Display;
+import src.main.java.controls.Control;
 
-import controls.Control;
-
+import javax.swing.*;
 import java.awt.*;
 
 //For testing
-import image.Image;
 
 public class Display {
     private JFrame frame;
@@ -29,6 +25,7 @@ public class Display {
         this.width = width;
         this.height = height;
         frame=gameFrame;
+
         createDisplay();
     }
 

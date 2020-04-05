@@ -1,4 +1,4 @@
-package character;
+package src.main.java.character;
 
 /**
  * The class I spent most of my time working on.

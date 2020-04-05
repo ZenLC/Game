@@ -1,10 +1,8 @@
-package tile;
+package src.main.java.tile;
 
-import image.Assets;
+import src.main.java.image.Assets;
 
-import java.awt.image.BufferedImage;
-
-public class floorTile extends Tile{
+public class floorTile extends Tile {
 
     public floorTile(int id) {
         super(Assets.floor, id);

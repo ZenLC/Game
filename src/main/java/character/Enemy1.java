@@ -1,16 +1,15 @@
-package character;
+package src.main.java.character;
 
 
-import map.Map;
-import theGame.state.*;
-import tile.Tile;
+import src.main.java.map.Map;
+import src.main.java.tile.Tile;
 
 /**
  * First enemy, moves from wall to wall, tiny wolf.
  * @author Rohan B.
  *
  */
-public class Enemy1 extends Enemy{
+public class Enemy1 extends Enemy {
 	private boolean swapDir = false;
 			
 		public Enemy1(int posX, int posY){

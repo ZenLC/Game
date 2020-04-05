@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: src.test.java.gameLoadingTest.switchToStringTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in src.test.java.gameLoadingTest.switchToStringTest
+checkSwitchToString  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+expected: <1 2
+3 4
+> but was: <12
+34
+>
+	at src.test.java.gameLoadingTest.switchToStringTest.checkSwitchToString(switchToStringTest.java:32)
+
+checkSwitchToInt  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <12>
+	at src.test.java.gameLoadingTest.switchToStringTest.checkSwitchToInt(switchToStringTest.java:42)
+

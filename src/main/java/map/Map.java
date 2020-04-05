@@ -1,6 +1,6 @@
-package map;
-import theGame.gameLoading.Loading;
-import tile.Tile;
+package src.main.java.map;
+import src.main.java.theGame.gameLoading.Loading;
+import src.main.java.tile.Tile;
 import java.awt.*;
 
 

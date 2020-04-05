@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="character.CollisionTest" time="0.011" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="src.test.java.gameLoadingTest.switchToStringTest" time="0.001" tests="2" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="13"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -54,9 +54,19 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="57.0"/>
   </properties>
-  <testcase name="isPointInRect" classname="character.CollisionTest" time="0.004"/>
-  <testcase name="isPxOutOfRectRight" classname="character.CollisionTest" time="0"/>
-  <testcase name="isPyOutOfRectUp" classname="character.CollisionTest" time="0.001"/>
-  <testcase name="isPyOutOfRectDown" classname="character.CollisionTest" time="0.001"/>
-  <testcase name="isPxOutOfRectLeft" classname="character.CollisionTest" time="0"/>
+  <testcase name="checkSwitchToString" classname="src.test.java.gameLoadingTest.switchToStringTest" time="0.001">
+    <failure message="expected: &lt;1 2&#10;3 4&#10;&gt; but was: &lt;12&#10;34&#10;&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
+expected: <1 2
+3 4
+> but was: <12
+34
+>
+	at src.test.java.gameLoadingTest.switchToStringTest.checkSwitchToString(switchToStringTest.java:32)
+]]></failure>
+  </testcase>
+  <testcase name="checkSwitchToInt" classname="src.test.java.gameLoadingTest.switchToStringTest" time="0">
+    <failure message="expected: &lt;1&gt; but was: &lt;12&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <1> but was: <12>
+	at src.test.java.gameLoadingTest.switchToStringTest.checkSwitchToInt(switchToStringTest.java:42)
+]]></failure>
+  </testcase>
 </testsuite>

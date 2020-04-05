@@ -1,17 +1,13 @@
-package theGame.main;
+package src.main.java.theGame.main;
 
-import image.Assets;
-import image.SpriteSheet;
-import theGame.Display.Display;
-import image.Image;
-import theGame.state.GameState;
-import theGame.state.State;
+import src.main.java.image.Assets;
+import src.main.java.theGame.state.GameState;
+import src.main.java.theGame.Display.Display;
+import src.main.java.theGame.state.State;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferStrategy;
-import java.awt.image.BufferedImage;
-
-import javax.swing.JFrame;
 
 /**
 The below class used to determine all class type during game running
@@ -99,14 +95,6 @@ public class Game implements Runnable {
         }
         stop();
         ;
-    }
-
-    public static void setRunning(boolean running) {
-        Game.running = running;
-    }
-
-    public static boolean isRunning() {
-        return running;
     }
 
     public synchronized void start() {

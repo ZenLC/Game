@@ -1,14 +1,15 @@
-package character;
+package src.main.java.character;
 
+
+import src.main.java.image.Image;
 
 import java.awt.image.BufferedImage;
 
 /**
  * Class for creating animated images from one picture with multiple frames (4 specifically)
+ *
  * @author Jordan Horacsek
  */
-
-import image.Image;
 
 public class Animator {
 	private Image animatedImage;

@@ -1,7 +1,7 @@
-package character;
+package src.main.java.character;
 
-import map.staticEntity;
-import reward.Reward;
+import src.main.java.map.staticEntity;
+import src.main.java.reward.Reward;
 
 /**
  * A collection of methods that handle collisions between entities, projectiles, and staticEntities.

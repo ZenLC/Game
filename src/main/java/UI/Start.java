@@ -1,7 +1,7 @@
-package UI;
+package src.main.java.UI;
 
 
-import theGame.main.Game;
+import src.main.java.theGame.main.Game;
 
 import javax.swing.JFrame;
 import javax.swing.*;

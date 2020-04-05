@@ -1,4 +1,4 @@
-package theGame.state;
+package src.main.java.theGame.state;
 
 import java.awt.*;
 

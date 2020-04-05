@@ -1,13 +1,13 @@
-package character;
+package src.main.java.character;
 
-import map.Map;
-import tile.Tile;
+import src.main.java.map.Map;
+import src.main.java.tile.Tile;
 /**
  * The projectile specific to the main character.
  * @author Jordan Horacsek
  *
  */
-public class CharacterBullet extends Projectile{
+public class CharacterBullet extends Projectile {
 	public CharacterBullet(Direction direction, float initialX, float initialY) {
 		super(direction,initialX,initialY,"/src/main/resources/character/fireball.png");
 	}
@@ -15,7 +15,7 @@ public class CharacterBullet extends Projectile{
 	 * Checks if the projectile is currently colliding with an enemy.
 	 */
 	public void checkEnemyCollision() {
-		for(int i=0; i < EnemyList.getElements(); i++) {
+		for(int i = 0; i < EnemyList.getElements(); i++) {
 			if(Collision.isColliding(this,EnemyList.get(i))) {
 				//This would be like where the enemy loses health
 				EnemyList.get(i).hit();
